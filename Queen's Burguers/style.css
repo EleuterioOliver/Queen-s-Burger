@@ -1,0 +1,92 @@
+/* ================= CONFIGURAÇÃO GLOBAL ================= */
+body{
+    font-family: 'Poppins', sans-serif;
+    /* Define a fonte principal do site */
+
+    line-height: 1.6;
+    /* Espaçamento entre linhas (melhora leitura) */
+}
+
+/* ================= HEADER ================= */
+header{
+    background: linear-gradient(135deg, #f5ee31, #643503);
+    /* Fundo com gradiente azul */
+
+    border-bottom: #ae8301 solid 1.5px;
+    /* Linha branca na parte inferior */
+}
+
+/* ================= HERO (SEÇÃO PRINCIPAL) ================= */
+.hero{
+    background-image: url('./stock-vector-fast-food-icons-set-in-pixel-art-style-burger-sushi-rolls-hot-dog-cheeseburger-pizza-corn-dog-2701880807.jpg');
+    /* Fundo com gradiente */
+    height: 17.0rem;
+
+    color:#8a6b06;
+    /* Texto branco */
+}
+
+.hero h2{
+    font-size: 2.5rem;
+    /* Tamanho grande para o título */
+}
+
+.hero p{
+    font-size: 1.2rem;
+    /* Texto um pouco maior que o padrão */
+}
+img{
+    margin-left: 5px;
+}
+
+select{
+    max-width: 200px;
+    width: 100%;
+}
+/* ================= RODAPÉ ================= */
+footer{
+    font-size: 0.9rem;
+    /* Texto menor no rodapé */
+}
+
+/* ================= CARDS (CARROSSEL) ================= */
+.card{
+    border: none;
+    /* Remove borda padrão do Bootstrap */
+
+    box-shadow: 0 4px 6px rgba(190, 187, 8, 0.863);
+    /* Sombra leve para dar profundidade */
+}
+
+.card-title{
+    font-size: 1.25rem;
+    /* Tamanho do título do card */
+
+    font-weight: 600;
+    /* Deixa o título mais destacado */
+}
+
+.card-text{
+    font-size: 1rem;
+    /* Texto padrão do card */
+}
+
+/* ================= CARROSSEL ================= */
+.carousel-inner .carousel-item{
+    text-align: center;
+    /* Centraliza conteúdo dentro dos slides */
+}
+
+/* Botões de navegação (setas) */
+.carousel-control-prev, 
+.carousel-control-next{
+    color: #696969;
+    /* Cor das setas */
+}
+
+/* Ícones das setas */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon{
+    background-color: #9b9b9b;
+    /* Fundo azul nas setas */
+}
